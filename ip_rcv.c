@@ -42,6 +42,6 @@ int main() {
 		printf("error attaching kprobe\n");
 		return -1;
 	}
-	sleep(100);
+	sleep(1000);
 	return 0;
 }
